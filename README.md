@@ -1,3 +1,3 @@
 # Boring? Never again. 😜
 
-Welcome to my new personal portfolio built with React.
+Welcome to my new personal portfolio built with React & Styled Components
