@@ -1,12 +1,16 @@
 import React from 'react'
-import {PresentationTitle, CoverImage, Emphasis} from './presentation.styles'
+import {ParentContainer, PresentationTitle, CoverImage, Emphasis, Title1} from './presentation.styles'
 
 export default function Main() {
   return (
     <div>
-      <PresentationTitle data-aos="fade-right" data-aos-duration="3000">Boring?</PresentationTitle>
-      <Emphasis >Never Again!</Emphasis>
-      <CoverImage src={require('../../assets/IMG_1008 còpia.JPG')} />
+      <ParentContainer>
+        <PresentationTitle data-aos="fade-up" data-aos-duration="1000">Boring?</PresentationTitle>
+        <Emphasis >Never Again!</Emphasis>
+      </ParentContainer>
+      <CoverImage />
+      <Title1 data-aos="zoom-in-up" data-aos-duration="1000">You only have one website.</Title1>
+      <Title1 data-aos="zoom-in-up" data-aos-duration="1000">Make it great</Title1>
     </div>
   )
 }
