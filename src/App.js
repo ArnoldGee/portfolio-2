@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Presentation from './pages/presentation/presentation.component'
+import Main from './pages/main/main.component'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Presentation />
+      <Main />
     </div>
   );
 }
