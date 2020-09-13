@@ -27,6 +27,9 @@ margin: 1.5em;
 
 export const Icons = styled.div`
 text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 margin: 0.5em;
 font-size: 3em;
 color: grey;

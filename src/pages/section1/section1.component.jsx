@@ -27,7 +27,7 @@ export default function Section1() {
   return (
     <Section1Wrapper>
       <Title1 data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="500">You only have one website.</Title1>
-      <ProjectsPics data-aos="zoom-in-up" data-aos-duration="1500" cssModule={AwesomeSliderStyles}>
+      <ProjectsPics cssModule={AwesomeSliderStyles}>
         <div data-src="https://i.imgur.com/WZRqOia.jpg" />
         <div data-src="https://i.imgur.com/uZ8aLel.jpg" />
         <div data-src="https://i.imgur.com/meVeZE3.jpg" />

@@ -25,10 +25,12 @@ export default function Section2() {
       <EmphasisParagraph data-aos="zoom-in-up">Currently looking for the next "wow" project to collaborate with "wow" people.</EmphasisParagraph>
       <Paragraph>I speak</Paragraph>
       <Icons> <i data-aos="zoom-in-up" class="fab fa-html5"></i>
-      <i data-aos="zoom-in-up" data-aos-delay="100" class="fab fa-css3-alt"></i>
-      <i data-aos="zoom-in-up" data-aos-delay="200" class="fab fa-js    "></i>
-      <i data-aos="zoom-in-up" data-aos-delay="300" class="fab fa-python    "></i>
-      <i data-aos="zoom-in-up" data-aos-delay="400" class="fab fa-php"></i></Icons>
+        <i data-aos="zoom-in-up" data-aos-delay="100" class="fab fa-css3-alt"></i>
+        <i data-aos="zoom-in-up" data-aos-delay="200" class="fab fa-js    "></i>
+        <i data-aos="zoom-in-up" data-aos-delay="300" class="fab fa-python    "></i>
+        <i data-aos="zoom-in-up" data-aos-delay="400" class="fab fa-php"></i>
+        <div data-aos="zoom-in-up" data-aos-delay="500">C++</div>
+      </Icons>
       <Paragraph>And I love working with</Paragraph>
       <Icons>
         <i data-aos="zoom-in-up" class="fab fa-react"></i>
